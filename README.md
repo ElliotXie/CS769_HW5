@@ -17,7 +17,7 @@ Clone this repository
 ```
 git clone
 ```
-Install Python 3.8.1, and ask the original author for access to the datasets and checkpoint
+Install Python 3.8.1, and download the below dataset use the link https://drive.google.com/drive/folders/1e1WQLA2Yh_r7bFeqmen3TxtXW7nICZrY?usp=sharing
 - Pretrained model: panglao_pretrain.pth
 - Datasets: panglao_10000.h5ad, Zheng68K.h5ad
 - Gene embedding: gene2vec_16906.npy
