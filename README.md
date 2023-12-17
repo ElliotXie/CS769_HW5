@@ -17,15 +17,16 @@ Clone this repository
 ```
 git clone
 ```
-Install Python 3.8.1, and download the below dataset use the link https://drive.google.com/drive/folders/1e1WQLA2Yh_r7bFeqmen3TxtXW7nICZrY?usp=sharing
+Install Python 3.8.1, and download the below dataset use the link https://drive.google.com/drive/folders/1e1WQLA2Yh_r7bFeqmen3TxtXW7nICZrY?usp=sharing, unzip the data file to root.
 - Pretrained model: panglao_pretrain.pth
-- Datasets: panglao_10000.h5ad, Zheng68K.h5ad
 - Gene embedding: gene2vec_16906.npy
 # Datasets
-- New_dataset: preprocessed original dataset.
-- New_subsampling: reducing the number of cells to 300.
-- New_oversampling: augmenting the number of BP and MoP to 4600 cells using SMOTE algorithm, function fit_resample and seed=2021.
-- New_randomoversampling: augmenting the number of BP and MoP to 4000 cells using RandomOverSampler algorithm, function fit_resample and seed=2021.
+- panglao_10000.h5ad
+- Zheng68K.h5ad
+- preprocessed_data.h5ad: preprocessed original dataset.
+- New_subsampling_300.h5ad: reducing the number of cells to 300.
+- New_augmented_4600.h5ad: augmenting the number of BP and MoP to 4600 cells using SMOTE algorithm, function fit_resample and seed=2021.
+- New_ranoversampling_4000: augmenting the number of BP and MoP to 4000 cells using RandomOverSampler algorithm, function fit_resample and seed=2021.
 # Fine-tune
 - new_finetune_percent.py: run scBERT fine-tuning on 10%, 25%, 50%, 75%, and 100% of the training data
 - new_finetune.py: used to run fine-tuning (cell type annotation) for scBERT, an example command line call:
