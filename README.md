@@ -1,6 +1,14 @@
 # CS769HW5
 
-Our work in this project is divided into three parts. You can go to the pretrain folder to run the code for the pretrain part, and a comprehensive finetune part is shown below. You can also find a more diverse and specific finetune part in the finetune_extension2 folder.
+This project is systematically organized into three key components:
+
+Pretraining Phase: The foundational pretraining stage of our project is located in the pretrain folder. Here, you can find all the necessary code and instructions to execute the pretraining part of the project.
+
+Finetuning Phase: For the primary finetuning process, detailed information and code are provided in this section (below). It encompasses the essential steps and guidelines for effectively finetuning our model.
+
+Advanced Finetuning Options: For more advanced and specialized finetuning requirements, please refer to the finetune_extension2 folder. This section offers a diverse range of finetuning options, catering to specific needs and scenarios.
+
+Each part of the project is designed to be standalone yet integrative, ensuring both flexibility and cohesion in the overall workflow.
 
 
 
