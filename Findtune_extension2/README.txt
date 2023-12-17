@@ -4,9 +4,14 @@ Please create a folder named "data" and then put the downloaded files into the f
 
 This part focuses on enhancing the main model. Significant improvements and extensions have been applied to the performer_pytorch.py file. Below is a structured guide on how to utilize these enhancements and a summary of the key changes:
 
+
 Running the Enhanced Model:
 
 To observe the impact of these extensions, please follow the code and instructions outlined in the Major Fine-Tune section.
+To explore the effect of different modules, directly run the first three modules to get the result of initial learning rate and shared cross layer parameters.
+After getting prediction using fine-tuned models (pre train untouched), run module 4 and 5 for further model improvement comparison results
+Final module is not implementable but rather demonstrates the triple loss we tried.
+
 
 Summary of Changes and Modules:
 
