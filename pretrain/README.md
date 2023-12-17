@@ -28,7 +28,5 @@ python=3.8
 # Usage
 1. Run the GetNCBIsummary to get summary data for each genes.
 2. Run the GetEmbedding to get OPENAI embedding for description.
-3. Run the RunLDA to transform the dimension and get the new embedding
-4. Run below code to do pretrain
-5. 
-!python -m torch.distributed.launch "/pretrain/pretrain.py" --data_path "/pretrain/subset_adata.h5ad" --epoch 100
+3. Run the Embedding_transform to get the new embedding
+4. Run the runthepretrain to run the pretrain process
