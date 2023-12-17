@@ -1,5 +1,9 @@
 # CS769HW5
 
+Our work in this project is divided into three parts. You can go to the pretrain folder to run the code for the pretrain part, and a comprehensive finetune part is shown below. You can also find a more diverse and specific finetune part in the finetune_extension2 folder.
+
+
+
 # Installation
 Clone this repository
 ```
