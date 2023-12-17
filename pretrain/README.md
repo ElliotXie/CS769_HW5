@@ -26,7 +26,9 @@ python=3.8
 !pip install matplotlib==3.6
 
 # Usage
-1. Run the GetNCBIsummary to get summary data for each genes.
-2. Run the GetEmbedding to get OPENAI embedding for description.
-3. Run the Embedding_transform to get the new embedding
-4. Run the runthepretrain to run the pretrain process
+1. Download the necessary data from the link: https://drive.google.com/drive/folders/1h7WwdCdH8lEJbPgLcfKHWBP9RTX2Buaa?usp=drive_link
+   and create a folder called data under the pretrain folder like this: pretrain/data/...
+2. Run the GetNCBIsummary to get summary data for each genes.
+3. Run the GetEmbedding to get OPENAI embedding for description.
+4. Run the Embedding_transform to get the new embedding
+5. Run the runthepretrain to run the pretrain process
